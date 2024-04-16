@@ -2,7 +2,7 @@ server
 {
 	listen 443 ssl default_server;
 	listen [::]:443 ssl;
-	root /var/www/html;
+	root /var/www/wordpress;
 
 	index index.php;
 
