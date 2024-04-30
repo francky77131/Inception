@@ -26,4 +26,5 @@ COPY	conf/nginx.conf /etc/nginx/nginx.conf
 
 
 
-CMD	[ "nginx", "-g", "daemon off;" ]
+ENTRYPOINT [ "nginx", "-g", "daemon off;" ] 
+#cela permet de lancer nginx en avant plans et nom en arriere plans.

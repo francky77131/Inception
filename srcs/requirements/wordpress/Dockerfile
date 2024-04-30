@@ -29,4 +29,4 @@ RUN	cp wp-cli.phar /usr/local/bin/wp
 
 COPY	./conf/conf.sh /conf.sh
 RUN chmod +x conf.sh
-CMD	["bash", "conf.sh"]
+ENTRYPOINT ["bash", "conf.sh"]
